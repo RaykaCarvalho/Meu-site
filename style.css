@@ -1,0 +1,71 @@
+body {
+  font-family: 'family', sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #f780ff, #89cff0, #a28089); /* Degrade rosa, azul e roxo */
+  color: #020101;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0%;
+}
+
+header h1 {
+  font-size: 200%;
+  text-decoration: #a28089;
+  text-shadow: #f06292;
+  text-decoration-color: #89cff0;
+}
+
+
+main {
+  padding: 10px;
+}
+
+section {
+  background-color: rgba(206, 71, 247, 0.616); /* Fundo semi-transparente */
+  border-radius: 10px;
+  padding: 10px;
+  margin-block-end: 10px;
+}
+
+/* Seção da minha foto */
+.minha-foto {
+  text-align: center;
+  margin-block-end: 5%;
+}
+
+.minha-foto img {
+  max-inline-size: 10%; /* Define a largura máxima da foto */
+  max-block-size: 10%; /* Define a altura máxima da foto */
+  block-size: auto; /* Mantém a proporção da imagem */
+  margin: 0 auto 0%;
+  border-radius: 50%; /* Arredonda os cantos da foto */
+  border: 4px solid hsl(340, 43%, 51%); /* Adiciona uma borda rosa */
+}
+
+/* Seção do Stitch distraído (GIF) */
+.stitch-distraido {
+  text-align: center;
+}
+
+.stitch-distraido img {
+  max-inline-size: 5%; /* Define a largura máxima da imagem */
+  block-size: auto; /* Mantém a proporção da imagem */
+  margin: 0 auto 0%;
+}
+
+/* Seção do Stitch no canto inferior */
+.stitch-canto-inferior {
+  position: fixed; /* Posicionamento fixo na tela */
+  inset-block-end: 10px; /* Distância da parte inferior da tela */
+  inset-inline-end: 10px; /* Distância da direita da tela */
+ 
+}
+
+.stitch-canto-inferior img {
+  inline-size: 100px; /* Ajuste o tamanho da imagem */
+  block-size: auto; /* Mantém a proporção da imagem */
+  border: 2px solid hwb(340 45% 13%); /* Adiciona uma borda rosa fina */
+  
+}
